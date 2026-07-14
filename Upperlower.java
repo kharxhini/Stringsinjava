@@ -15,12 +15,12 @@ public class Upperlower {
 
             char ch = name.charAt(i);
 
-            if (Character.isUpperCase(ch)) {
+            if (MyCharacter.isUpperCase(ch)) {
                 upper++;
                 System.out.println("Uppercase: " + ch);
             }
 
-            if (Character.isLowerCase(ch)) {
+            if (MyCharacter.isLowerCase(ch)) {
                 lower++;
                 System.out.println("Lowercase: " + ch);
             }
